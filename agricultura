@@ -1,0 +1,101 @@
+/agricultura-digital
+├── index.html
+└── style.css
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultura Digital no Campo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Agricultura Digital no Campo</h1>
+        <p>Transformando o campo com tecnologia e inovação</p>
+    </header>
+
+    <main>
+        <section class="introducao">
+            <h2>O que é Agricultura Digital?</h2>
+            <p>
+                A agricultura digital é o uso de tecnologias como sensores, drones, GPS, inteligência artificial e
+                softwares de gestão para otimizar a produção agrícola, reduzir custos e aumentar a sustentabilidade.
+            </p>
+        </section>
+
+        <section class="importancia">
+            <h2>Por que é importante?</h2>
+            <ul>
+                <li>🔍 Monitoramento em tempo real das plantações</li>
+                <li>💧 Uso eficiente da água e dos insumos</li>
+                <li>📈 Aumento da produtividade com menor impacto ambiental</li>
+                <li>🌱 Decisões mais precisas baseadas em dados</li>
+                <li>🚜 Redução de perdas e melhoria logística</li>
+            </ul>
+        </section>
+
+        <section class="exemplos">
+            <h2>Exemplos de Tecnologia no Campo</h2>
+            <p>
+                Hoje, muitos produtores já utilizam drones para mapeamento aéreo, sensores de umidade no solo e
+                aplicativos que integram dados meteorológicos com planejamento de plantio e colheita.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Agricultura Digital | Projeto Educativo</p>
+    </footer>
+</body>
+</html>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f9f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    color: #264653;
+    margin-bottom: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+ul {
+    padding-left: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+footer {
+    background-color: #264653;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
